@@ -1,0 +1,80 @@
+@import url('https://fonts.cdnfonts.com/css/ff-din');
+
+// font-family: 'FF DIN', Arial, sans-serif;
+
+h2 {
+    color: #ffe082;
+}
+h3 {
+    color: #ffecb3;
+}
+       
+body {
+    background-image: url(zhsrBG.png);
+    background-size: cover;
+    font-family: 'FF DIN', Arial, sans-serif;
+    .divider {
+        background: #827717;
+    }
+    .navbar-fixed {
+        font-family: 'FF DIN', Arial, sans-serif;
+    }
+    .active {
+        color: #ffd180;
+    }
+    .row {
+        background-image: url(zhsrBG.png);
+        background-size: cover;
+    }
+    .btn-small {
+        background-color: #f9a825;
+        color: white;
+    }
+    .nav-wrapper {
+        background-image: url(znav.png);
+        background-size: contain;
+        .brand-logo {color: #ffd180;}
+    }
+    .datepicker-date-display {
+        background-image: url(zmap.png);
+        background-size: contain;
+        .date-text {color: #f9a825;}
+        .year-text {color: #e65100;}
+    }
+    .datepicker-footer {
+        button {
+            color: #ff6f00;
+        }
+    }
+    .is-selected {
+        button {
+            background: #ff6f00;
+        }
+    }
+    .timepicker-digital-display {
+        background-image: url(zmap2.png);
+        background-size: contain;
+    }
+    .timepicker-display-column {
+        span { color: #ff6f00;}
+        .am-btn {color: #e65100;}
+        .pm-btn {color: #e65100;}
+        .text-primary {color: #ffe082;}
+    }
+    .timepicker-footer {
+        button {
+            color: #ff6f00;
+        }
+    }
+    .timepicker-svg {
+        g {
+            line {
+                stroke: #ff6f00;
+            }
+            circle {
+                fill: #ff6f00;
+            }
+        }
+    }
+}
+
